@@ -5,6 +5,6 @@ txt = requests.get(URL).text
 mydict = json.loads(txt)
 results = mydict["results"]
 for r in results:
-	components = r['address_components']
-	for c in components:
-		print(c['long_name'])
+	geom = r['geometry']
+	for g in geom:
+		print(g)
