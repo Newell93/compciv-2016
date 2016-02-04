@@ -7,4 +7,6 @@ results = mydict["results"]
 for r in results:
 	geom = r['geometry']
 	for g in geom:
-		print(g)
+		loc = r['location']
+		for l in loc:
+		print(l)
