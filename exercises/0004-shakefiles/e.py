@@ -1,4 +1,4 @@
-import os
+	import os
 fname = os.path.join('tempdata', 'tragedies', 'hamlet')
 hamletfile = open(fname, 'r')
 line_num = 0
