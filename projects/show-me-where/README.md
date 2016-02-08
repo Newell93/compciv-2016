@@ -12,13 +12,21 @@ https://data.sfgov.org/Public-Safety/SFPD-Incidents-from-1-January-2003/tmnf-yvr
 
 #Description
 *IncidentNum This is a police code identifying the incident.
-*Category Because the crime list is so large, it's broken down into roughly a dozen. I'll focus on incidents in the **drug/narcotic** category.
+
+*Category Because the crime list is so large, it's broken down into roughly a dozen. I'll focus on incidents in the drug/narcotic category.
+
 *Description This is a subset of category. It is a more focused description of what transpired. A description of the drug category could be a methamphetamine bust.
+
 *Day of Week, Date, Time: *Self-explanatory* Written in military time, MM/DD/YYYY.
+
 *PdDistrict Where did this happen?
+
 *Resolution Was the person released? Was an arrest made?
+
 *Address This is an imprecise location of where it occurred. It's usually listed as the 300 block of ABC Street.
+
 *X Latitude
+
 *Y Longitude
 
 
