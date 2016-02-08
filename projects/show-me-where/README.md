@@ -31,3 +31,4 @@ https://data.sfgov.org/Public-Safety/SFPD-Incidents-from-1-January-2003/tmnf-yvr
 
 
 #Data Wrangler
+* I will need to filter this down to drug/narcotic. In addition, I'm probably not interested in going back to 2003. Maybe I can pick the last three years? Something like 2013-15 would be fine with me.
