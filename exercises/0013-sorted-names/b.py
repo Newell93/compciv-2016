@@ -9,5 +9,6 @@ zname = os.path.join('tempdata', 'ssa-babynames-nationwide-2014', "babies")
 zfile = open(zname, 'wb')
 zfile.write(resp.content)
 zfile.close()
-for x in mytext:
-	print(x)
+def sort_foo(x):
+    return x[2]
+print(sorted(mytext, key=sort_foo, reverse=True))
