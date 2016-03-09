@@ -1,8 +1,20 @@
 from zoofoo import detect_gender
 NAMES_TO_TEST = ['Michael', 'Kelly', 'Kanye', 'THOR', 'casey', 'Arya', 'ZZZblahblah']
+namecount = {'M': 0, 'F': 0, 'NA': 0}
+babycount = {'males': 0, 'females': 0}
 for name in NAMES_TO_TEST:
-	print((detect_gender(name)['name']), (detect_gender(name)['gender']), (detect_gender(name)['ratio']))
+    result = detect_gender(name)
+    print(name, result['gender'], result['ratio'])
+    if result['gender']:
+        namecount[result['gender']] += 1
+
+    if result['gender'] != 'NA': 
+        babycount['males'] += result['males']
+        babycount['females'] += result['females']
+
 print("Total:")
+print("F:", namecount['F'], 'M:', namecount['M'], 'NA:', namecount['NA'])
+print('females:', babycount['females'], 'males:', babycount['males'])
 
 
 		#(detect_gender(name)['gender']), (detect_gender(name)['ratio']))
