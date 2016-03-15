@@ -35,9 +35,9 @@ for fname in DATA_FILE_BASENAMES:
             pass
         else:
             usablename = extract_usable_name(first_name)
-            xresult = detect_gender(usablename)
-            row['gender'] = xresult['gender']
-            row['ratio'] = xresult['ratio']
+            get = detect_gender(usablename)
+            row['gender'] = get['gender']
+            row['ratio'] = get['ratio']
             row['usable_name'] = usablename
             # 
             output_csv.writerow(row)
