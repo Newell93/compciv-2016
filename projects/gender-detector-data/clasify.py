@@ -1,4 +1,3 @@
-#Dan: I used California Colleges as a template. Thank you for sharing it. 
 from os import makedirs
 from os.path import join
 from csv import DictReader, DictWriter
@@ -8,6 +7,7 @@ CLASSIFIED_DIR = join(DATA_DIR, 'classified')
 makedirs(CLASSIFIED_DIR, exist_ok=True)
 DATA_FILE_BASENAMES = ['guests-simpsons.csv']
 WRANGLED_DATA_FILENAME = join(DATA_DIR, 'wrangledbabynames.csv')
+NAMES_DATA_ROWS = list(DictReader(open(WRANGLED_DATA_FILENAME)))
 
 def extract_usable_name(First):
     return First
@@ -15,11 +15,12 @@ def extract_usable_name(First):
 for fname in DATA_FILE_BASENAMES:
     full_filename = join(DATA_DIR, fname)
 
-    joe = open(full_filename, 'r')
-    First_rows = list(DictReader(joe))
-    joe.close()
+    xf = open(full_filename, 'r')
+    First_rows = list(DictReader(xf))
+    xf.close()
 
-    classified_headers = list(First_rows[0]) + ['gender', 'ratio', 'usable_name']
+    classified_headers = list(First_rows[1]) + ['gender', 'ratio', 'usable_name']
+    # start the classified data file
     classified_filename = join(CLASSIFIED_DIR, fname)
     print("About to classify", len(First_rows), 'rows into the file:', classified_filename)
 
@@ -31,7 +32,8 @@ for fname in DATA_FILE_BASENAMES:
         xc += 1
         first_name = row['First']
         print("On row", xc, first_name)
-        if "N/A" in first_name:
+        # skip rows in which row['Employee Name'] is "Not provided"
+        if "Not provided" in first_name:
             pass
         else:
             usablename = extract_usable_name(first_name)
@@ -39,7 +41,7 @@ for fname in DATA_FILE_BASENAMES:
             row['gender'] = xresult['gender']
             row['ratio'] = xresult['ratio']
             row['usable_name'] = usablename
-            # 
+            # write to the csv file
             output_csv.writerow(row)
     outfile.close()
-#Dan: I used California Colleges as a template. Thank you for sharing it. 
+
