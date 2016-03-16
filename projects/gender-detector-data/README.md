@@ -29,4 +29,22 @@ The gender detector failed when it said Kelsey Grammer was a woman. The actor, w
 Also, the gender detector failed to read names of bands like Metallica. I don't blame the gender detector for giving an 'NA' in those cases. **Asking the gender detector to determine the gender of bands like R.E.M. was a recipe for disaster.**
 
 In a perfect world, the person creating the dataset would list R.E.M., one of my *favorite* bands of all-time, as: 
-	**Michael Stipe, Mike Mills, Peter Buck and Bill Berry**
+	**Michael Stipe, Mike Mills, Peter Buck and Bill Berry.**
+
+
+#Past Research and Articles
+
+My goal is not to label "The Simpsons" as a show that favors male guest stars over females. Rather, I wanted to use it as an example. Does one of America's most-popular TV shows have a jaw-dropping gender gap when it comes to guest stars? I wanted to see if the show was unusually progressive, or if it mirrored Hollywood.
+
+Two articles were particularly helpful.
+
+The first came from NPR, and it provided a short summary of an essay Jennifer Lawrence wrote on the gender pay gap in Hollywood. This is crucial for setting the tone. Hollywood is seen by many as unequal when it comes to paying everyone, regardless of gender, equal sums of money for an equal role.
+
+*http://www.npr.org/sections/thetwo-way/2015/10/15/448954732/jennifer-lawrence-hits-a-nerve-with-essay-on-hollywoods-gender-pay-gap*
+
+The second came from a KPCC interview with Geena Davis. Davis shared some troubling insight:
+
+**"Fewer than 31 percent of all speaking parts go to women."
+"American movies feature fewer female characters than movies in South Korea, Russia and China."**
+
+This applies more to "The Simpsons" than the Jennifer Lawrence article. Hollywood is male-dominated. How do we change that?
