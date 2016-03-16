@@ -38,13 +38,15 @@ My goal is not to label "The Simpsons" as a show that favors male guest stars ov
 
 Two articles were particularly helpful.
 
-The first came from NPR, and it provided a short summary of an essay Jennifer Lawrence wrote on the gender pay gap in Hollywood. This is crucial for setting the tone. Hollywood is seen by many as unequal when it comes to paying everyone, regardless of gender, equal sums of money for an equal role.
+**The first came from NPR**, and it provided a short summary of an essay Jennifer Lawrence wrote on the gender pay gap in Hollywood. This is crucial for setting the tone. Hollywood is seen by many as unequal when it comes to paying everyone, regardless of gender, equal sums of money for an equal role.
 
 *http://www.npr.org/sections/thetwo-way/2015/10/15/448954732/jennifer-lawrence-hits-a-nerve-with-essay-on-hollywoods-gender-pay-gap*
 
-The second came from a KPCC interview with Geena Davis. Davis shared some troubling insight:
+**The second came from a KPCC interview with Geena Davis.** Davis shared some troubling insight:
 
 **"Fewer than 31 percent of all speaking parts go to women."
 "American movies feature fewer female characters than movies in South Korea, Russia and China."**
 
-This applies more to "The Simpsons" than the Jennifer Lawrence article. Hollywood is male-dominated. How do we change that?
+*http://www.scpr.org/programs/the-frame/2014/09/23/39476/geena-davis-institute-study-shows-gender-gap-in-fi/*
+
+This applies more to "The Simpsons" than the Jennifer Lawrence article. Hollywood is male-dominated. **How do we change that?**
