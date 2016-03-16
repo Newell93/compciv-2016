@@ -67,4 +67,12 @@ So here we are. Time to test out the project.
 
 **classify.py**: This is arguably the most important script in this project. This extracts the first names of all guest starts from "The Simpsons." Then, comparing it with the data from **wrangle_data.py**, it determines the likelihood that the guest star is male or female. It then appends the gender and first name of the guest star to the existing .csv. 
 
-Also, it provides the gender ratio for each name. The higher the number, the greater the chance that the name is male or female. A name with a ratio of '100' indicates that there's a very good chance the gender detector determined the guest star's gender. A name with a ratio of '51' indicates there's a very good chance the gender dector is confused because so many men and women share the name. 
+Also, it provides the gender ratio for each name. The higher the number, the greater the chance that the name is male or female. A name with a ratio of '100' indicates that there's a very good chance the gender detector determined the guest star's gender. A name with a ratio of '51' indicates there's a very good chance the gender dector is confused because so many men and women share the name.
+
+**analyze.py**: This script takes the information from **classify.py** and analyzes it. For example, the analysis finds:
+
+Of all the guest stars on "The Simpsons," **the gender detector believes 205 are women, 670 are men and 61 cannot be determined.**
+
+The gender disparity exists when counted by season. The second analysis determines the gender of guest starts on each season of the show.
+
+**Finally,** it seems like the gender gap may be lessening. I compared the ratio of men to women for each season, not counting the NAs. It seems to be decreasing, meaning more women are appearing than they did before. Still, men outnumber women by a ratio of about 3:1.
