@@ -44,8 +44,9 @@ Two articles were particularly helpful.
 
 **The second came from a KPCC interview with Geena Davis.** Davis shared some troubling insight:
 
-**"Fewer than 31 percent of all speaking parts go to women."
-"American movies feature fewer female characters than movies in South Korea, Russia and China."**
+"Fewer than 31 percent of all speaking parts go to women."
+
+"American movies feature fewer female characters than movies in South Korea, Russia and China."
 
 *http://www.scpr.org/programs/the-frame/2014/09/23/39476/geena-davis-institute-study-shows-gender-gap-in-fi/*
 
