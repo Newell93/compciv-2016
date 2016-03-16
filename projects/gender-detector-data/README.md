@@ -51,3 +51,15 @@ Two articles were particularly helpful.
 *http://www.scpr.org/programs/the-frame/2014/09/23/39476/geena-davis-institute-study-shows-gender-gap-in-fi/*
 
 This applies more to "The Simpsons" than the Jennifer Lawrence article. Hollywood is male-dominated. **How do we change that?**
+
+
+# How To Use It:
+
+So here we are. Time to test out the project.
+
+**fetch_gender_data.py**: This script downloads the raw files from the Social Security Administration that list the number of babies with a particular name. It spans 1880 to 2014. It dumps this information into *tempdata*, which contains 125 .txt files containing info on baby names for every year from 1880 to 2014.
+
+**wrangle_gender_data.py**: This script selects baby-name records every decade between 1950 and 2014. It then compiles them into a list, which is sorted by descending number of babies given a certain name. For example, more babies were named Michael than any other name.
+
+**fetch_data.py**: This script downloads my .csv file containing information on every guest star on "The Simpsons" in the show's first 26 seasons. It dumps it into your *tempdata* folder, naming itself: **simpsons-guests.csv.** 
+
