@@ -24,6 +24,6 @@ I did my work from the .csv file, which didn't need to be wrangled.
 I used each guest star's first name to determine their gender. As pointed out by Dan Nguyen, the gender detector, built from Social Security data, is incredibly ethno-centric. It is by no means an authoritative way to determine one's gender. But it gives us a ballpark of the gender breakdown on "The Simpsons."
 
 Some of the caveats include:
-	The gender detector failed when it said Kelsey Grammer was a woman. The actor, who voiced "Sideshow Bob", was listed as female more than 20 times. This threw off the overall count to a large degree. If you took 20 names away from the 'F' column and put them in the 'M' one, you would have a 40-point swing.
+The gender detector failed when it said Kelsey Grammer was a woman. The actor, who voiced "Sideshow Bob", was listed as female more than 20 times. This threw off the overall count to a large degree. If you took 20 names away from the 'F' column and put them in the 'M' one, you would have a 40-point swing.
 
-	Also, the gender detector failed to read names of bands like Metallica. I don't blame the gender detector for giving an 'NA'. Asking the gender detector to determine the sex of bands like R.E.M. was a recipe for disaster.
+Also, the gender detector failed to read names of bands like Metallica. I don't blame the gender detector for giving an 'NA'. Asking the gender detector to determine the sex of bands like R.E.M. was a recipe for disaster.
