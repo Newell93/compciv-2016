@@ -63,3 +63,8 @@ So here we are. Time to test out the project.
 
 **fetch_data.py**: This script downloads my .csv file containing information on every guest star on "The Simpsons" in the show's first 26 seasons. It dumps it into your *tempdata* folder, naming itself: **simpsons-guests.csv.** 
 
+**wrangle_data.py**: This script does the same thing as **fetch_data.py.** Just a copy.
+
+**classify.py**: This is arguably the most important script in this project. This extracts the first names of all guest starts from "The Simpsons." Then, comparing it with the data from **wrangle_data.py**, it determines the likelihood that the guest star is male or female. It then appends the gender and first name of the guest star to the existing .csv. 
+
+Also, it provides the gender ratio for each name. The higher the number, the greater the chance that the name is male or female. A name with a ratio of '100' indicates that there's a very good chance the gender detector determined the guest star's gender. A name with a ratio of '51' indicates there's a very good chance the gender dector is confused because so many men and women share the name. 
