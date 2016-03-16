@@ -13,7 +13,7 @@ simpsons = {'M': 0, 'F': 0, 'NA': 0}
 for row in First_rows:
     wiggum = row['gender']
     simpsons[wiggum] += 1
-print("F:", simpsons['F'], "M:", simpsons['M'])
+print("F:", simpsons['F'], "M:", simpsons['M'], "N/A:", simpsons['NA'])
 
 for x in range(1,27):
     yr = str(x)
@@ -23,7 +23,7 @@ for x in range(1,27):
         if yr == row['Season']:
             wiggum = row['gender']
             byseason[wiggum] += 1
-    print("F:", byseason['F'], "M:", byseason['M'])
+    print("F:", byseason['F'], "M:", byseason['M'], "N/A:", byseason['NA'])
 
 for x in range(1,27):
     yr = str(x)
