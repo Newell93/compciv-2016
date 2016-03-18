@@ -14,6 +14,7 @@ for row in First_rows:
     wiggum = row['gender']
     simpsons[wiggum] += 1
 print("F:", simpsons['F'], "M:", simpsons['M'], "N/A:", simpsons['NA'])
+print("-----------------------------------------")
 
 for x in range(1,27):
     yr = str(x)
@@ -24,6 +25,7 @@ for x in range(1,27):
             wiggum = row['gender']
             byseason[wiggum] += 1
     print("F:", byseason['F'], "M:", byseason['M'], "N/A:", byseason['NA'])
+print("-----------------------------------------")
 
 for x in range(1,27):
     yr = str(x)
@@ -34,3 +36,4 @@ for x in range(1,27):
             wiggum = row['gender']
             ratioseason[wiggum] += 1
     print("Ratio of M/F Guests:", round(ratioseason['M'] / ratioseason['F']))
+print("-----------------------------------------")
